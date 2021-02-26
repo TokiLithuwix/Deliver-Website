@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+}
+
+/* .main-content {
+    width: 1170px;
+    height: 4274px;
+    margin: 0 auto;
+} */
+
+.header_b-g {
+    background: #e22b19;
+    height: 50px;
+}
+
+header {
+    width: 1170px;
+    height: 4274px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-section-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_nostyle_header_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_all_header {
+    /* position: relative;
+    min-width: 1170px;
+    height: 50px; */
+    border: 1px solid black; /* проверка размера блока, содержащего контент HEADER */
+    width: 1170px;
+    height: 970px;
+    
+}
+
+select {
+    display: inline;
+    margin: 17px 0 17px;
+    border: none;
+    background: #e22b19; 
+    color: #fff; 
+}
+
+.select_in_header {
+    float: right;
+}
+
+.div_nostyle_header_icon {
+    /* flex ?? */
+    /* display: flex;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; */
+}
+
+a.decoration_none {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+img.img_icon_people {
+
+    display: inline-block;
+    /* left: 10px; */
+}
